@@ -1,5 +1,5 @@
 .btn-medium {
-  color: #FFFFFF;
+  color: black !important;
   border: 1px solid #999999;
   padding: 10px 15px;
   border-radius: 50px;
@@ -28,4 +28,9 @@
 
 .btn-card {
 
+}
+
+#main-btn {
+  display: flex;
+  justify-content: center;
 }

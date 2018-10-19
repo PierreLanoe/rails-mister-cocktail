@@ -1,5 +1,21 @@
-<h1>New Cocktail</h1>
-<%= simple_form_for [@cocktail] do |f| %>
-  <%= f.input :name %>
-  <%= f.submit "Add a cocktail", class: "btn btn-primary" %>
-<% end %>
+
+<div id="banner-new" class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1531902837127-d284763cf370?ixlib=rb-0.3.5&s=97439266ce64df2d3a7c1f5827722961&auto=format&fit=crop&w=800&q=60');">
+  <div class="banner-content">
+    <h1>New Cocktail</h1>
+    <%= simple_form_for [@cocktail] do |f| %>
+      <%= f.input :name %>
+      <%= f.submit "Add a cocktail", class: "btn btn-info" %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+<!-- https://images.unsplash.com/photo-1531002329786-97e3efcb754b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5cc826864e1890cc916a71b4de444385&auto=format&fit=crop&w=1650&q=80 -->
+
+<div class="footer">
+  <div class="footer-copyright">
+    This footer is made with <i class="fa fa-heart"></i> by Pierre Lanoë
+  </div>
+</div>
